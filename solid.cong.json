@@ -1,0 +1,16 @@
+{
+    "@context": "https://linkedsoftwaredependencies.org/bundles/npm/@solid/community-server/^5.0.0/components/context.jsonld",
+    "components": {
+      "ldp": {
+        "childObjects": [
+          {
+            "comment": "Remove all authorizers",
+            "@id": "urn:solid-server:default:ResourceStore",
+            "extends": "urn:solid-server:default:HttpHandler",
+            "components": {}
+          }
+        ]
+      }
+    }
+  }
+  
