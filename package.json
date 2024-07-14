@@ -42,7 +42,7 @@
   },
   "scripts": {
     "tests": "npx hardhat compile && npx hardhat test --typecheck",
-    "tests-network": "npx hardhat node & (npx hardhat compile && (npx hardhat test --network localhost --typecheck))",
+    "tests-network": "npx hardhat node & (npx hardhat compile && sleep 20 && (npx hardhat test --network localhost --typecheck))",
     "serve": "npx vite serve app_client",
     "start": "npx hardhat node & npm run serve",
     "start-node": "npx hardhat node",
